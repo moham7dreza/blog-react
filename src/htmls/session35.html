@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
+    <title>Document</title>
+    <style>
+      [x-cloak] {
+        display: none !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div x-data>
+      <!-- شنل: بعد رفرش صفحه تا زمانی که الپاین لود شود متنو نمایش میده که با این دستور تماما محوش میکنیم -->
+      <p x-cloak x-show="false">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint,
+        voluptatibus!
+      </p>
+    </div>
+    <!-- روش دوم برای محو -->
+    <div x-data="message : 'hello'">
+      <template x-if="false">
+        <p x-text="message"></p>
+      </template>
+    </div>
+    <!-- append template to end of body -> not usable in livewire -->
+    <div x-data>
+      <template x-teleport="body">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+          recusandae? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Fuga neque praesentium adipisci eaque tempora culpa repudiandae quis,
+          ut obcaecati expedita?
+        </p>
+      </template>
+    </div>
+  </body>
+</html>
