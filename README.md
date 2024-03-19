@@ -14,3 +14,5 @@ Currently, two official plugins are available:
   directly
 - change one of states in class components not affect in other states but in function components we must rewrite all
   states when changing one of states
+- learn about css modules
+- learn more about classnames package
