@@ -2,7 +2,8 @@ import './App.css'
 import Counter from "./Components/Counter.jsx";
 import TestClass from "./Components/TestClass.jsx";
 import {useState} from "react";
-import {Layout} from "./Components/Layout.jsx";
+import {Header} from "./Components/Layouts/Header.jsx";
+import {Footer} from "./Components/Layouts/Footer.jsx";
 
 const App = () => {
     const [count, setCount] = useState(0)
@@ -21,7 +22,19 @@ const App = () => {
     }
     return (
         <>
-            <Layout/>
+            {/*// <!-- ========== HEADER ========== -->*/}
+            <Header/>
+            {/*// <!-- ========== END HEADER ========== -->*/}
+
+            {/*// <!-- ========== MAIN CONTENT ========== -->*/}
+            <main id="content" role="main">
+
+            </main>
+            {/*// <!-- ========== END MAIN CONTENT ========== -->*/}
+
+            {/*// <!-- ========== FOOTER ========== -->*/}
+            <Footer/>
+            {/*// <!-- ========== END FOOTER ========== -->*/}
             {/*<Counter count={count} increaseCount={increaseCount} decreaseCount={decreaseCount} resetCount={resetCount}/>*/}
             {/*<TestClass count={undefined}/>*/}
         </>
