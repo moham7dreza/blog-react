@@ -5,6 +5,7 @@ import {Footer} from "./Components/Layouts/Footer.jsx";
 import {Stats} from "./Components/Stats.jsx";
 import {Gallery} from "./Components/Gallery.jsx";
 import {HeroForm} from "./Components/HeroForm.jsx";
+import {IconSection} from "./Components/IconSection.jsx";
 
 const App = () => {
     const [count, setCount] = useState(0)
@@ -31,6 +32,7 @@ const App = () => {
             <main id="content" role="main">
                 <HeroForm/>
                 <Gallery/>
+                <IconSection/>
                 <Stats/>
             </main>
             {/*// <!-- ========== END MAIN CONTENT ========== -->*/}
