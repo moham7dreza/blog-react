@@ -2,6 +2,7 @@ import './App.css'
 import Counter from "./Components/Counter.jsx";
 import TestClass from "./Components/TestClass.jsx";
 import {useState} from "react";
+import {Layout} from "./Components/Layout.jsx";
 
 const App = () => {
     const [count, setCount] = useState(0)
@@ -20,8 +21,9 @@ const App = () => {
     }
     return (
         <>
-            <Counter count={count} increaseCount={increaseCount} decreaseCount={decreaseCount} resetCount={resetCount}/>
-            <TestClass count={undefined}/>
+            <Layout/>
+            {/*<Counter count={count} increaseCount={increaseCount} decreaseCount={decreaseCount} resetCount={resetCount}/>*/}
+            {/*<TestClass count={undefined}/>*/}
         </>
     );
 }
