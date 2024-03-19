@@ -1,9 +1,9 @@
 import './App.css'
-import Counter from "./Components/Counter.jsx";
-import TestClass from "./Components/TestClass.jsx";
 import {useState} from "react";
 import {Header} from "./Components/Layouts/Header.jsx";
 import {Footer} from "./Components/Layouts/Footer.jsx";
+import {Stats} from "./Components/Stats.jsx";
+import {Gallery} from "./Components/Gallery.jsx";
 
 const App = () => {
     const [count, setCount] = useState(0)
@@ -28,7 +28,8 @@ const App = () => {
 
             {/*// <!-- ========== MAIN CONTENT ========== -->*/}
             <main id="content" role="main">
-
+                <Gallery/>
+                <Stats/>
             </main>
             {/*// <!-- ========== END MAIN CONTENT ========== -->*/}
 
