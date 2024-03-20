@@ -2,12 +2,7 @@ import './App.css'
 import {useState} from "react";
 import {Header} from "./Components/Layouts/Header.jsx";
 import {Footer} from "./Components/Layouts/Footer.jsx";
-import {Stats} from "./Components/Stats.jsx";
-import {HeroForm} from "./Components/HeroForm.jsx";
-import {IconSection} from "./Components/IconSection.jsx";
-import {Slider} from "./Components/Slider.jsx";
-import {Reviews} from "./Components/Reviews.jsx";
-import {Masonry} from "./Components/Masonry.jsx";
+import {Category} from "./Pages/Category.jsx";
 
 const App = () => {
     const [count, setCount] = useState(0)
@@ -32,13 +27,14 @@ const App = () => {
 
             {/*// <!-- ========== MAIN CONTENT ========== -->*/}
             <main id="content" role="main">
-                <HeroForm/>
-                <Masonry/>
-                {/*<Gallery/>*/}
-                <Slider/>
-                <Reviews/>
-                <IconSection/>
-                <Stats/>
+                <Category/>
+                {/*<HeroForm/>*/}
+                {/*<Masonry/>*/}
+                {/*/!*<Gallery/>*!/*/}
+                {/*<Slider/>*/}
+                {/*<Reviews/>*/}
+                {/*<IconSection/>*/}
+                {/*<Stats/>*/}
             </main>
             {/*// <!-- ========== END MAIN CONTENT ========== -->*/}
 

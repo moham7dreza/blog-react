@@ -669,47 +669,47 @@ export const Pricing = () => {
                         <div className="space-y-4 lg:space-y-0">
                             { /* <!-- List --> */}
                             <ul className="grid lg:grid-cols-6 lg:gap-6">
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="lg:col-span-2 lg:py-3">
             <span className="text-lg font-semibold text-gray-800 dark:text-gray-200">
               General
             </span>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
                             </ul>
                             { /* <!-- End List --> */}
 
                             { /* <!-- List --> */}
                             <ul className="grid lg:grid-cols-6 lg:gap-6">
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="lg:col-span-2 pb-1.5 lg:py-3">
             <span className="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
               Number of seats
             </span>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -720,9 +720,9 @@ export const Pricing = () => {
               </span>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -733,9 +733,9 @@ export const Pricing = () => {
               </span>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -746,9 +746,9 @@ export const Pricing = () => {
               </span>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -759,21 +759,21 @@ export const Pricing = () => {
               </span>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
                             </ul>
                             { /* <!-- End List --> */}
 
                             { /* <!-- List --> */}
                             <ul className="grid lg:grid-cols-6 lg:gap-6">
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="lg:col-span-2 pb-1.5 lg:py-3">
             <span className="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
               Storage
             </span>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -784,9 +784,9 @@ export const Pricing = () => {
               </span>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -797,9 +797,9 @@ export const Pricing = () => {
               </span>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -810,9 +810,9 @@ export const Pricing = () => {
               </span>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -823,21 +823,21 @@ export const Pricing = () => {
               </span>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
                             </ul>
                             { /* <!-- End List --> */}
 
                             { /* <!-- List --> */}
                             <ul className="grid lg:grid-cols-6 lg:gap-6">
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="lg:col-span-2 pb-1.5 lg:py-3">
             <span className="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
               Email sharing
             </span>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -851,9 +851,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -867,9 +867,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -883,9 +883,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -899,21 +899,21 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
                             </ul>
                             { /* <!-- End List --> */}
 
                             { /* <!-- List --> */}
                             <ul className="grid lg:grid-cols-6 lg:gap-6">
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="lg:col-span-2 pb-1.5 lg:py-3">
             <span className="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
               Any time, anywhere access
             </span>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -927,9 +927,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -943,9 +943,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -959,9 +959,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -975,7 +975,7 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
                             </ul>
                             { /* <!-- End List --> */}
                         </div>
@@ -985,47 +985,47 @@ export const Pricing = () => {
                         <div className="mt-6 space-y-4 lg:space-y-0">
                             { /* <!-- List --> */}
                             <ul className="grid lg:grid-cols-6 lg:gap-6">
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="lg:col-span-2 lg:py-3">
             <span className="text-lg font-semibold text-gray-800 dark:text-gray-200">
               Financial data
             </span>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
                             </ul>
                             { /* <!-- End List --> */}
 
                             { /* <!-- List --> */}
                             <ul className="grid lg:grid-cols-6 lg:gap-6">
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="lg:col-span-2 pb-1.5 lg:py-3">
             <span className="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
               Open/High/Low/Close
             </span>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1039,9 +1039,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1055,9 +1055,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1071,9 +1071,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1087,21 +1087,21 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
                             </ul>
                             { /* <!-- End List --> */}
 
                             { /* <!-- List --> */}
                             <ul className="grid lg:grid-cols-6 lg:gap-6">
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="lg:col-span-2 pb-1.5 lg:py-3">
             <span className="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
               Price-volume difference indicator
             </span>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1115,9 +1115,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1131,9 +1131,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1147,9 +1147,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1163,7 +1163,7 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
                             </ul>
                             { /* <!-- End List --> */}
                         </div>
@@ -1173,47 +1173,47 @@ export const Pricing = () => {
                         <div className="mt-6 space-y-4 lg:space-y-0">
                             { /* <!-- List --> */}
                             <ul className="grid lg:grid-cols-6 lg:gap-6">
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="lg:col-span-2 lg:py-3">
             <span className="text-lg font-semibold text-gray-800 dark:text-gray-200">
               On-chain data
             </span>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
                             </ul>
                             { /* <!-- End List --> */}
 
                             { /* <!-- List --> */}
                             <ul className="grid lg:grid-cols-6 lg:gap-6">
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="lg:col-span-2 pb-1.5 lg:py-3">
             <span className="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
               Network growth
             </span>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1227,9 +1227,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1243,9 +1243,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1259,9 +1259,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1275,21 +1275,21 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
                             </ul>
                             { /* <!-- End List --> */}
 
                             { /* <!-- List --> */}
                             <ul className="grid lg:grid-cols-6 lg:gap-6">
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="lg:col-span-2 pb-1.5 lg:py-3">
             <span className="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
               Average token age consumed
             </span>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1303,9 +1303,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1319,9 +1319,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1335,9 +1335,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1351,21 +1351,21 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
                             </ul>
                             { /* <!-- End List --> */}
 
                             { /* <!-- List --> */}
                             <ul className="grid lg:grid-cols-6 lg:gap-6">
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="lg:col-span-2 pb-1.5 lg:py-3">
             <span className="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
               Exchange flow
             </span>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1379,9 +1379,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1395,9 +1395,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1411,9 +1411,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1427,21 +1427,21 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
                             </ul>
                             { /* <!-- End List --> */}
 
                             { /* <!-- List --> */}
                             <ul className="grid lg:grid-cols-6 lg:gap-6">
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="lg:col-span-2 pb-1.5 lg:py-3">
             <span className="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
               Total ERC20 exchange funds flow
             </span>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1455,9 +1455,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1471,9 +1471,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1487,9 +1487,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1503,21 +1503,21 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
                             </ul>
                             { /* <!-- End List --> */}
 
                             { /* <!-- List --> */}
                             <ul className="grid lg:grid-cols-6 lg:gap-6">
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="lg:col-span-2 pb-1.5 lg:py-3">
             <span className="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
               Transaction volume
             </span>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1531,9 +1531,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1547,9 +1547,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1563,9 +1563,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1579,21 +1579,21 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
                             </ul>
                             { /* <!-- End List --> */}
 
                             { /* <!-- List --> */}
                             <ul className="grid lg:grid-cols-6 lg:gap-6">
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="lg:col-span-2 pb-1.5 lg:py-3">
             <span className="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
               Total circulation (beta)
             </span>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1607,9 +1607,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1623,9 +1623,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1639,9 +1639,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1655,21 +1655,21 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
                             </ul>
                             { /* <!-- End List --> */}
 
                             { /* <!-- List --> */}
                             <ul className="grid lg:grid-cols-6 lg:gap-6">
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="lg:col-span-2 pb-1.5 lg:py-3">
             <span className="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
               Velocity of tokens (beta)
             </span>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1683,9 +1683,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1699,9 +1699,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1715,9 +1715,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1731,21 +1731,21 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
                             </ul>
                             { /* <!-- End List --> */}
 
                             { /* <!-- List --> */}
                             <ul className="grid lg:grid-cols-6 lg:gap-6">
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="lg:col-span-2 pb-1.5 lg:py-3">
             <span className="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
               ETH gas used
             </span>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1759,9 +1759,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1775,9 +1775,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1791,9 +1791,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1807,7 +1807,7 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
                             </ul>
                             { /* <!-- End List --> */}
                         </div>
@@ -1817,47 +1817,47 @@ export const Pricing = () => {
                         <div className="mt-6 space-y-4 lg:space-y-0">
                             { /* <!-- List --> */}
                             <ul className="grid lg:grid-cols-6 lg:gap-6">
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="lg:col-span-2 lg:py-3">
             <span className="text-lg font-semibold text-gray-800 dark:text-gray-200">
               Social data
             </span>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
                             </ul>
                             { /* <!-- End List --> */}
 
                             { /* <!-- List --> */}
                             <ul className="grid lg:grid-cols-6 lg:gap-6">
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="lg:col-span-2 pb-1.5 lg:py-3">
             <span className="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
               Dev activity
             </span>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1871,9 +1871,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1887,9 +1887,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1903,9 +1903,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1919,21 +1919,21 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
                             </ul>
                             { /* <!-- End List --> */}
 
                             { /* <!-- List --> */}
                             <ul className="grid lg:grid-cols-6 lg:gap-6">
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="lg:col-span-2 pb-1.5 lg:py-3">
             <span className="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
               Topic search
             </span>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1947,9 +1947,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1963,9 +1963,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1979,9 +1979,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -1995,21 +1995,21 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
                             </ul>
                             { /* <!-- End List --> */}
 
                             { /* <!-- List --> */}
                             <ul className="grid lg:grid-cols-6 lg:gap-6">
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="lg:col-span-2 pb-1.5 lg:py-3">
             <span className="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
               Relative social dominance
             </span>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -2023,9 +2023,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -2039,9 +2039,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -2055,9 +2055,9 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
 
-                                { /* <!-- Item --> */}
+                                { /* <!-- Category --> */}
                                 <li className="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
                                     <div className="grid grid-cols-2 md:grid-cols-6 lg:block">
               <span className="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
@@ -2071,7 +2071,7 @@ export const Pricing = () => {
                                         </svg>
                                     </div>
                                 </li>
-                                { /* <!-- End Item --> */}
+                                { /* <!-- End Category --> */}
                             </ul>
                             { /* <!-- End List --> */}
                         </div>
