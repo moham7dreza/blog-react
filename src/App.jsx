@@ -2,7 +2,7 @@ import './App.css'
 import {useState} from "react";
 import {Header} from "./Components/Layouts/Header.jsx";
 import {Footer} from "./Components/Layouts/Footer.jsx";
-import {Post} from "./Pages/Content/Post.jsx";
+import {Item} from "./Pages/Item/Item.jsx";
 
 const App = () => {
     const [count, setCount] = useState(0)
@@ -27,7 +27,8 @@ const App = () => {
 
             {/*// <!-- ========== MAIN CONTENT ========== -->*/}
             <main id="content" role="main">
-                <Post/>
+                <Item/>
+                {/*<Post/>*/}
                 {/*<Category/>*/}
                 {/*<HeroForm/>*/}
                 {/*<Masonry/>*/}
