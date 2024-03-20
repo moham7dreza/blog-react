@@ -1,4 +1,4 @@
-import {Sidebar} from "../Components/Layouts/Sidebar.jsx";
+import {Sidebar} from "../../Components/Layouts/Sidebar.jsx";
 
 export const Category = () => {
     return (
