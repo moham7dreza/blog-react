@@ -6,6 +6,14 @@ import {Item} from "./Pages/Item/Item.jsx";
 
 const App = () => {
     const [count, setCount] = useState(0)
+    // count [categories, setCategories] = useState({})
+    // count [menus, setMenus] = useState({})
+    // count [items, setItems] = useState({})
+    // count [posts, setPosts] = useState({})
+    //
+    // useEffect(() => {
+    //
+    // }, []);
     const increaseCount = () => {
         setCount(count + 1)
     }
