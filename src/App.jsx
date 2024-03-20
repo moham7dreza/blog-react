@@ -7,6 +7,7 @@ import {Gallery} from "./Components/Gallery.jsx";
 import {HeroForm} from "./Components/HeroForm.jsx";
 import {IconSection} from "./Components/IconSection.jsx";
 import {Slider} from "./Components/Slider.jsx";
+import {Reviews} from "./Components/Reviews.jsx";
 
 const App = () => {
     const [count, setCount] = useState(0)
@@ -34,6 +35,7 @@ const App = () => {
                 <HeroForm/>
                 <Gallery/>
                 <Slider/>
+                <Reviews/>
                 <IconSection/>
                 <Stats/>
             </main>
