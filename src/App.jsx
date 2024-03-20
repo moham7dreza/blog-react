@@ -8,6 +8,12 @@ import {Route, Routes} from "react-router-dom";
 import {ToastContainer} from "react-toastify";
 import {useFetch} from "./Hooks/useFetch.js";
 import {ItemContext} from "./Context/ItemContext.js";
+import {HeroForm} from "./Components/HeroForm.jsx";
+import {Masonry} from "./Components/Masonry.jsx";
+import {Slider} from "./Components/Slider.jsx";
+import {Reviews} from "./Components/Reviews.jsx";
+import {IconSection} from "./Components/IconSection.jsx";
+import {Stats} from "./Components/Stats.jsx";
 
 const App = () => {
     const [count, setCount] = useState(0)
@@ -82,13 +88,13 @@ const App = () => {
                         {/*<Item/>*/}
                         {/*<Post/>*/}
                         {/*<Category/>*/}
-                        {/*<HeroForm/>*/}
-                        {/*<Masonry/>*/}
-                        {/*/!*<Gallery/>*!/*/}
-                        {/*<Slider/>*/}
-                        {/*<Reviews/>*/}
-                        {/*<IconSection/>*/}
-                        {/*<Stats/>*/}
+                        <HeroForm/>
+                        <Masonry/>
+                        {/*<Gallery/>*/}
+                        <Slider/>
+                        <Reviews/>
+                        <IconSection/>
+                        <Stats/>
                     </main>
                     {/*// <!-- ========== END MAIN CONTENT ========== -->*/}
 
