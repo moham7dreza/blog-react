@@ -14,6 +14,8 @@ import {Slider} from "./Components/Slider.jsx";
 import {Reviews} from "./Components/Reviews.jsx";
 import {IconSection} from "./Components/IconSection.jsx";
 import {Stats} from "./Components/Stats.jsx";
+import {Gallery} from "./Components/Gallery.jsx";
+import {Spinner} from "./Components/Spinner.jsx";
 
 const App = () => {
     const [count, setCount] = useState(0)
@@ -27,11 +29,13 @@ const App = () => {
     const [itemCategoriesResponse] = useFetch('http://127.0.0.1:8000/api/v1/items/categories/index')
 
     useEffect(() => {
+        setLoading(true)
         if (itemCategoriesResponse && itemCategoriesResponse.status === 'success') {
             // toast.success('categories fetched')
             setCategories(itemCategoriesResponse.data)
         }
         console.log(categories)
+        setLoading(false)
     }, [categories, itemCategoriesResponse]);
 
     useEffect(() => {
@@ -88,13 +92,17 @@ const App = () => {
                         {/*<Item/>*/}
                         {/*<Post/>*/}
                         {/*<Category/>*/}
-                        <HeroForm/>
-                        <Masonry/>
-                        {/*<Gallery/>*/}
-                        <Slider/>
-                        <Reviews/>
-                        <IconSection/>
-                        <Stats/>
+                        {loading ? <Spinner/> :
+                            <>
+                                <HeroForm/>
+                                <Masonry/>
+                                <Gallery/>
+                                <Slider/>
+                                <Reviews/>
+                                <IconSection/>
+                                <Stats/>
+                            </>
+                        }
                     </main>
                     {/*// <!-- ========== END MAIN CONTENT ========== -->*/}
 
