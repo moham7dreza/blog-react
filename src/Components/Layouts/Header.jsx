@@ -1,4 +1,10 @@
+import {FiMoon, FiSun} from "react-icons/fi";
+import {Link} from "react-router-dom";
+import {useContext} from "react";
+import {ItemContext} from "../../Context/ItemContext.js";
+
 export const Header = () => {
+    const {isDarkMode, setIsDarkMode} = useContext(ItemContext)
     return (
         <>
             {/*<header className="mb-auto flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full text-sm py-4">*/}
@@ -117,8 +123,16 @@ export const Header = () => {
                 <nav className="max-w-[85rem] w-full mx-auto px-4 md:px-6 lg:px-8" aria-label="Global">
                     <div className="relative md:flex md:items-center md:justify-between">
                         <div className="flex items-center justify-between">
-                            <a className="flex-none text-xl font-semibold dark:text-white dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                               href="#" aria-label="Brand">Brand</a>
+                            {/*<a className="flex-none text-xl font-semibold dark:text-white dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"*/}
+                            {/*   href="#" aria-label="Brand">Brand</a>*/}
+                            <div className={'flex items-center justify-center space-x-3'}>
+                                <Link to={'/'} className="flex-none text-xl font-semibold dark:text-white"
+                                      aria-label="Brand">Stock</Link>
+                                <button onClick={() => setIsDarkMode(!isDarkMode)}
+                                        className="dark:hover:text-indigo-300 hover:text-indigo-600 dark:text-white font-bold py-2 px-4 rounded shadow-sm text-xl">
+                                    {isDarkMode ? <FiSun/> : <FiMoon/>}
+                                </button>
+                            </div>
                             <div className="md:hidden">
                                 <button type="button"
                                         className="hs-collapse-toggle flex justify-center items-center size-9 text-sm font-semibold rounded-lg border border-gray-200 text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
