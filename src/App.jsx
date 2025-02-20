@@ -1,42 +1,120 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Session32 from "./components/alpine/session_32_x_model.jsx";
-import Session33 from './components/alpine/session33_x_effect.jsx';
-import Session34 from './components/alpine/session34_x_ref_ignore.jsx';
+import {useEffect, useState} from "react";
+import {Header} from "./Components/Layouts/Header.jsx";
+import {Footer} from "./Components/Layouts/Footer.jsx";
+import {Item} from "./Pages/Item/Item.jsx";
+import {Helmet, HelmetProvider} from "react-helmet-async";
+import {Route, Routes} from "react-router-dom";
+import {ToastContainer} from "react-toastify";
+import {useFetch} from "./Hooks/useFetch.js";
+import {ItemContext} from "./Context/ItemContext.js";
+import {HeroForm} from "./Components/HeroForm.jsx";
+import {Masonry} from "./Components/Masonry.jsx";
+import {Slider} from "./Components/Slider.jsx";
+import {Reviews} from "./Components/Reviews.jsx";
+import {IconSection} from "./Components/IconSection.jsx";
+import {Stats} from "./Components/Stats.jsx";
+import {Gallery} from "./Components/Gallery.jsx";
+import {Spinner} from "./Components/Spinner.jsx";
 
-function App() {
+const App = () => {
     const [count, setCount] = useState(0)
+    const [loading, setLoading] = useState(false)
+    const [isDarkMode, setIsDarkMode] = useState(false);
+    const [categories, setCategories] = useState({})
+    const [menus, setMenus] = useState({})
+    const [items, setItems] = useState({})
+    const [posts, setPosts] = useState({})
+
+    const [itemCategoriesResponse] = useFetch('http://127.0.0.1:8000/api/v1/items/categories/index')
+
+    useEffect(() => {
+        setLoading(true)
+        if (itemCategoriesResponse && itemCategoriesResponse.status === 'success') {
+            // toast.success('categories fetched')
+            setCategories(itemCategoriesResponse.data)
+        }
+        console.log(categories)
+        setLoading(false)
+    }, [categories, itemCategoriesResponse]);
+
+    useEffect(() => {
+        const body = document.body;
+        if (isDarkMode) {
+            body.classList.add('dark');
+        } else {
+            body.classList.remove('dark');
+        }
+    }, [isDarkMode]);
+
+    const increaseCount = () => {
+        setCount(count + 1)
+    }
+    const decreaseCount = () => {
+        if (count < 1) {
+            alert('increase count')
+            return
+        }
+        setCount(count - 1)
+    }
+    const resetCount = () => {
+        setCount(0)
+    }
+
+    const itemContext = {
+        count, setCount,
+        loading, setLoading,
+        isDarkMode, setIsDarkMode,
+        categories, setCategories,
+        menus, setMenus,
+        items, setItems,
+        posts, setPosts,
+    }
 
     return (
         <>
-            {/* <Session32/> */}
-            {/* <Session33 /> */}
-            <Session34 />
-            <div>
+            <HelmetProvider>
+                <Helmet>
+                    <title>test</title>
+                </Helmet>
+                <ItemContext.Provider value={itemContext}>
+                    <ToastContainer theme={isDarkMode ? 'dark' : 'light'} position={'top-left'} draggable/>
 
-                <a href="https://vitejs.dev" target="_blank">
-                    <img src={viteLogo} className="logo" alt="Vite logo" />
-                </a>
-                <a href="https://react.dev" target="_blank">
-                    <img src={reactLogo} className="logo react" alt="React logo" />
-                </a>
-            </div>
-            <h1>Vite + React</h1>
-            <div className="card">
-                <button onClick={() => setCount((count) => count + 1)}>
-                    count is {count}
-                </button>
-                <p>
-                    Edit <code>src/App.jsx</code> and save to test HMR
-                </p>
-            </div>
-            <p className="read-the-docs">
-                Click on the Vite and React logos to learn more
-            </p>
+                    {/*// <!-- ========== HEADER ========== -->*/}
+                    <Header/>
+                    {/*// <!-- ========== END HEADER ========== -->*/}
+
+                    {/*// <!-- ========== MAIN CONTENT ========== -->*/}
+                    <main id="content" role="main">
+                        <Routes>
+                            <Route path={'/item'} element={<Item/>}/>
+                        </Routes>
+                        {/*<Item/>*/}
+                        {/*<Post/>*/}
+                        {/*<Category/>*/}
+                        {loading ? <Spinner/> :
+                            <>
+                                <HeroForm/>
+                                <Masonry/>
+                                <Gallery/>
+                                <Slider/>
+                                <Reviews/>
+                                <IconSection/>
+                                <Stats/>
+                            </>
+                        }
+                    </main>
+                    {/*// <!-- ========== END MAIN CONTENT ========== -->*/}
+
+                    {/*// <!-- ========== FOOTER ========== -->*/}
+                    <Footer/>
+                    {/*// <!-- ========== END FOOTER ========== -->*/}
+                    {/*<Counter count={count} increaseCount={increaseCount} decreaseCount={decreaseCount} resetCount={resetCount}/>*/}
+                    {/*<TestClass count={undefined}/>*/}
+                </ItemContext.Provider>
+            </HelmetProvider>
         </>
-    )
+    );
 }
 
 export default App
